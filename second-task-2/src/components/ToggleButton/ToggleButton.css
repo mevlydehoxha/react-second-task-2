@@ -1,0 +1,59 @@
+.toggle-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:5%;
+    font-size:1.5rem;
+    font-family: 'Century Gothic';
+}
+.toggle-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:2rem;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    border: .1rem solid rgb(189, 184, 184);
+    border-radius:.5rem ;
+    cursor: pointer; 
+    word-break: break-word; 
+    box-shadow: 1px 1px #888888;
+}
+.toggle-button:hover{
+    opacity: 0.7;
+}
+@media (max-width: 1300px) {
+    .toggle-button {
+      width:90%;
+      font-size:.9rem;
+    }
+    .toggle-show {
+      font-size:.8rem;
+
+    }
+    .toggle-content{
+        width:18.5rem;
+    }
+    .toggle-symbol{
+        width:.1rem;
+
+    }
+  }
+.toggle-content, .toggle-symbol{
+    padding:1.5rem 3rem 1.5rem 3rem;
+}
+.toggle-content{
+    font-weight: bold;
+}
+.toggle-symbol{
+    color:rgb(128, 130, 131);
+}
+.toggle-show{
+    padding:1rem 5rem 0 5rem; 
+    color:rgb(128, 130, 131);
+    word-break: break-word; 
+}
+hr{  
+    margin:0 3rem 0 3rem;
+}
+
