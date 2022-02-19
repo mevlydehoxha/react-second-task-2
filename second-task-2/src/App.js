@@ -1,5 +1,5 @@
-import ToggleContent from "./ToggleContent/ToggleContent";
-import AboutContent from './AboutContent/AboutContent';
+import ToggleContent from "./pages/ToggleContent/ToggleContent";
+import AboutContent from './pages/AboutContent/AboutContent';
 import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import './App.css';
 function App() {

@@ -1,4 +1,4 @@
-import ToggleButton from "../components/ToggleButton/ToggleButton";
+import ToggleButton from "../../components/ToggleButton/ToggleButton";
 
 const toggle_data=[{
     id:'1',

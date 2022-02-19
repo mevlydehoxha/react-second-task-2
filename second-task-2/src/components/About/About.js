@@ -2,8 +2,8 @@ import React from 'react';
 import {useState} from 'react';
 import './About.css';
 import image from './placeholder-image.jpg';
-import ArticleContent from '../../ArticlesContent/ArticleContent';
-import ArticleItems from '../../ArticlesContent/ArticlesItems';
+import ArticleContent from '../../pages/ArticlesContent/ArticleContent';
+import ArticleItems from '../../pages/ArticlesContent/ArticlesItems';
 
 
 const About=(props)=>{

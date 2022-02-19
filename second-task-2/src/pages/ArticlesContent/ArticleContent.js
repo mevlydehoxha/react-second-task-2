@@ -1,5 +1,5 @@
-import Article from '../components/Article/Article';
-import ArticleItems from '../ArticlesContent/ArticlesItems';
+import Article from '../../components/Article/Article';
+import ArticleItems from './ArticlesItems';
 
 
 const article_data=ArticleItems;

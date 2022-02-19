@@ -4,7 +4,6 @@
     justify-content: center;
     padding:5%;
     font-size:1.5rem;
-    font-family: 'Century Gothic';
 }
 .toggle-button{
     display: flex;
@@ -19,9 +18,6 @@
     word-break: break-word; 
     box-shadow: 1px 1px #888888;
 }
-.toggle-button:hover{
-    opacity: 0.7;
-}
 @media (max-width: 1300px) {
     .toggle-button {
       width:90%;
@@ -29,24 +25,30 @@
     }
     .toggle-show {
       font-size:.8rem;
-
     }
   }
-.toggle-content, .toggle-symbol{
-    padding:1.5rem 3rem 1.5rem 3rem;
-}
 .toggle-content{
+    padding:1.5rem 0 1.5rem 3rem;
     font-weight: bold;
-}
-.toggle-symbol{
-    color:rgb(128, 130, 131);
 }
 .toggle-show{
     padding:1rem 5rem 0 5rem; 
     color:rgb(128, 130, 131);
     word-break: break-word; 
 }
+.toggle-content:hover{
+    opacity: 0.7;
+}
 hr{  
     margin:0 3rem 0 3rem;
 }
-
+.toggle-symbol_up{
+    transform: rotate(270deg);
+    color:rgb(128, 130, 131);
+    margin-right:2rem;
+}
+.toggle-symbol_down{
+    transform: rotate(90deg);
+    color:rgb(128, 130, 131);
+    margin-right:5rem;
+}
