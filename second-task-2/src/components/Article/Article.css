@@ -38,7 +38,7 @@
 .article-show{
     word-break: break-word; 
 }
-hr{  
-    margin:0 3rem 0 3rem;
+.article-symbol-rotated{
+    transform: rotate(90deg);
+    color:rgb(128, 130, 131);
 }
-
