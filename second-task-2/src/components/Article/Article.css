@@ -1,0 +1,44 @@
+.article-container{
+    font-size:1.5rem;
+    font-family: 'Century Gothic';
+}
+.article-button{
+    margin:1.5rem 0 0 1.5rem;
+    width:auto;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer; 
+    word-break: break-word;
+}
+.article-button:hover{
+    opacity: 0.7;
+}
+.article-title_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media (max-width: 1300px) {
+    .article-button {
+      font-size:.9rem;
+    }
+    .article-show {
+      font-size:.8rem;
+    }
+    .article-content{
+        width:25rem;
+    }
+    .article-symbol{
+        width:.5rem;
+    } 
+  }
+
+.article-content{
+    font-weight: bold;
+}
+.article-show{
+    word-break: break-word; 
+}
+hr{  
+    margin:0 3rem 0 3rem;
+}
+

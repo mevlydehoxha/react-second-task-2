@@ -1,4 +1,4 @@
-.toggle-container{
+.about-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -6,10 +6,7 @@
     font-size:1.5rem;
     font-family: 'Century Gothic';
 }
-.toggle-button{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.about-button{
     margin:2rem;
     width:100%;
     background-color: rgb(255, 255, 255);
@@ -19,32 +16,51 @@
     word-break: break-word; 
     box-shadow: 1px 1px #888888;
 }
-.toggle-button:hover{
+
+.about-title_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.about-title_content:hover{
     opacity: 0.7;
 }
+.image{
+  border:1px solid gray;
+  border-radius: 50%;
+  width:100px;
+  margin:1.5rem;
+}
+.about-title__content{
+    display: flex;
+
+}
+.about-topic__content{
+    display: flex;
+    flex-direction: column; 
+    margin-top:2.5rem;
+}
 @media (max-width: 1300px) {
-    .toggle-button {
-      width:90%;
+    .about-button {
       font-size:.9rem;
     }
-    .toggle-show {
+    .about-show {
       font-size:.8rem;
 
     }
   }
-.toggle-content, .toggle-symbol{
-    padding:1.5rem 3rem 1.5rem 3rem;
-}
-.toggle-content{
+.about-content{
     font-weight: bold;
+    font-size: 2rem;
 }
-.toggle-symbol{
+.about-symbol{
+    margin:3rem;
     color:rgb(128, 130, 131);
 }
-.toggle-show{
-    padding:1rem 5rem 0 5rem; 
-    color:rgb(128, 130, 131);
+.about-show{
+    padding:0 5rem 0 0; 
     word-break: break-word; 
+    border-top:1px solid rgb(128, 130, 131);
 }
 hr{  
     margin:0 3rem 0 3rem;
