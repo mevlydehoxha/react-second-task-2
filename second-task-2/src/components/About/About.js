@@ -22,14 +22,14 @@ const About=(props)=>{
                             </div>
                         <div className="about-topic__content">
                             <div className="about-content">{title}</div>
-                            <p>{article_data_length} aricles in this Topic</p>
+                            <p className="article_length">{article_data_length} aricles in this Topic</p>
                         </div>
                         </div>
                         <div className="about-symbol-top">&#10093; </div>
                     </div>
                     {showAbout && 
                     <div className="about-articles">
-                    <p class="about-show"><ArticleContent/></p>
+                    <p className="about-show"><ArticleContent/></p>
                     </div>}
                 </div>   
              </div>
@@ -45,14 +45,14 @@ const About=(props)=>{
                             </div>
                         <div className="about-topic__content">
                             <div className="about-content">{title}</div>
-                            <p>{article_data_length} aricles in this Topic</p>
+                            <p className="article_length">{article_data_length} aricles in this Topic</p>
                         </div>
                         </div>
                         <div className="about-symbol-bottom">&#10093;</div>
                     </div>
                 </div>   
              </div>
-    )
+        );
 }
 
 export default About;

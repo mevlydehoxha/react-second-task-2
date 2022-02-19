@@ -41,4 +41,8 @@
 .article-symbol-rotated{
     transform: rotate(90deg);
     color:rgb(128, 130, 131);
+    font-size: 1.5rem;
+}
+.article-symbol{
+    font-size: 1.5rem;
 }

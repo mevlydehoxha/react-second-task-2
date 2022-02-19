@@ -13,7 +13,7 @@ const Article=(props)=>{
                                 <div className="article-content">{article_title}</div>
                                 <div className="article-symbol-rotated">&#10093; </div>
                             </div>
-                        {showArticle && <div><p class="article-show">{article_description} </p></div>}
+                        {showArticle && <div><p className="article-show">{article_description} </p></div>}
                 </div>   
              </div>
         );
@@ -26,7 +26,7 @@ const Article=(props)=>{
                                 <div className="article-content">{article_title}</div>
                                 <div className="article-symbol">&#10093;</div>
                             </div>
-                        {showArticle && <div><p class="article-show">{article_description}</p></div>}
+                        {showArticle && <div><p className="article-show">{article_description}</p></div>}
                 </div> 
             </div>
         );

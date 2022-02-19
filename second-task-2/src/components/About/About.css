@@ -10,8 +10,8 @@
     margin:2rem;
     width:100%;
     background-color: rgb(255, 255, 255);
-    border: .1rem solid rgb(189, 184, 184);
-    border-radius:.5rem ;
+    border: .1rem solid rgb(223, 217, 217);
+    border-radius:.2rem ;
     cursor: pointer; 
     word-break: break-word; 
     box-shadow: 1px 1px #888888;
@@ -26,7 +26,7 @@
     opacity: 0.7;
 }
 .image{
-  border:1px solid gray;
+  border:.1rem solid rgb(221, 218, 218);
   border-radius: 50%;
   width:100px;
   margin:1.5rem;
@@ -58,15 +58,21 @@
     word-break: break-word; 
 }
 .about-articles{
-    border-top:.1rem solid rgb(128, 130, 131);
+    border-top:.1rem solid rgb(206, 208, 209);
 }
 .about-symbol-top{
     color:rgb(128, 130, 131);
     transform: rotate(270deg);
+    font-size: 2rem;
+    margin:0 2rem 0 0;
 }
 .about-symbol-bottom{
     color:rgb(128, 130, 131);
-    margin:0 8rem 0 0;
+    margin:0 9rem 0 0;
     transform: rotate(90deg);
+    font-size: 2rem;
+}
+.article_length{
+    font-size: 1.1rem;
 }
 

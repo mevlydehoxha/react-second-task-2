@@ -1,5 +1,4 @@
 import Article from '../components/Article/Article';
-import About from '../components/About/About';
 import ArticleItems from '../ArticlesContent/ArticlesItems';
 
 
@@ -14,7 +13,6 @@ function ArticleContent(){
             </div>
             )}
         </div>
-
     );
 }
 export default ArticleContent;

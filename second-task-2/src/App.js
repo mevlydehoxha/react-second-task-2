@@ -1,12 +1,25 @@
-// import ToggleButton from "./components/ToggleButton/ToggleButton";
-// import ToggleContent from "./ToggleContent/ToggleContent";
+import ToggleContent from "./ToggleContent/ToggleContent";
 import AboutContent from './AboutContent/AboutContent';
-import About from './components/About/About';
+import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
+import './App.css';
 function App() {
   return (
     <div>
-      <AboutContent/>
-    </div>
+    <BrowserRouter>
+    <ul>
+        <li>
+          <Link className="link" to="/">First Page</Link>
+        </li>
+        <li>
+          <Link className="link" to="/about">Second Page</Link>
+         </li>
+    </ul>
+      <Routes>
+          <Route path="/" element={<ToggleContent/>} />
+          <Route path="/about" element={<AboutContent/>} />
+      </Routes>
+    </BrowserRouter>
+  </div>
   );
 }
 
