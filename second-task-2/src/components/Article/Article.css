@@ -33,6 +33,7 @@
 
 .article-content{
     font-weight: bold;
+    width:95%;
 }
 .article-show{
     word-break: break-word; 
@@ -44,4 +45,5 @@
 }
 .article-symbol{
     font-size: 1.5rem;
+    color:rgb(128, 130, 131);
 }

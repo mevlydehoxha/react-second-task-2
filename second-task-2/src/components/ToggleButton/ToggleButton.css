@@ -30,6 +30,7 @@
 .toggle-content{
     padding:1.5rem 0 1.5rem 3rem;
     font-weight: bold;
+    width:60%;
 }
 .toggle-show{
     padding:1rem 5rem 0 5rem; 
@@ -46,9 +47,11 @@ hr{
     transform: rotate(270deg);
     color:rgb(128, 130, 131);
     margin-right:2rem;
+    font-size: 1.5rem;
 }
 .toggle-symbol_down{
     transform: rotate(90deg);
     color:rgb(128, 130, 131);
     margin-right:5rem;
+    font-size: 1.5rem;
 }
