@@ -12,7 +12,7 @@ const ToggleButton=(props)=>{
                 <div className="toggle-button"
                     onClick={()=>setShow(!show)}>
                         <div className="toggle-content">{title}</div>
-                        <div className="toggle-symbol_up">&#10093; </div>
+                        <div className="toggle-symboldown">	&#x2303; </div>
                         {show && <div><hr/><p className="toggle-show">{content}</p></div>}
                 </div>   
              </div>
@@ -23,9 +23,9 @@ const ToggleButton=(props)=>{
             <div className="toggle-button"
                 onClick={()=>setShow(!show)}>
                     <div className="toggle-content">{title}</div>
-                    <div className="toggle-symbol_down"> &#10093;</div>
+                    <div className="toggle-symbolup">&#x2304; </div>
                     {show && <div><hr/><p className="toggle-show">{content}</p></div>}
-            </div> 
+            </div>   
         </div>
     );
 }

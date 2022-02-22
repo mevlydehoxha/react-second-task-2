@@ -6,7 +6,6 @@
     font-size:1.5rem;
 }
 .about-button{
-    margin:2rem;
     width:100%;
     background-color: rgb(255, 255, 255);
     border: .1rem solid rgb(223, 217, 217);
@@ -27,30 +26,26 @@
 .image{
   border:.1rem solid rgb(221, 218, 218);
   border-radius: 50%;
-  width:100px;
+  width:70px;
   margin:1.5rem;
 }
 .about-title__content{
     display: flex;
-
 }
 .about-topic__content{
     display: flex;
     flex-direction: column; 
-    margin-top:2.5rem;
+    margin-top:2rem;
+    height:4rem;
 }
 @media (max-width: 1300px) {
-    .about-button {
-      font-size:.9rem;
-    }
-    .about-show {
-      font-size:.8rem;
-
+    .about-topic__content{
+        width:5rem;
+        font-size: 1rem;
     }
   }
 .about-content{
     font-weight: bold;
-    font-size: 2rem;
 }
 .about-show{
     padding:0 5rem 0 0; 
@@ -59,19 +54,18 @@
 .about-articles{
     border-top:.1rem solid rgb(206, 208, 209);
 }
+.about-symbol-top, .about-symbol-bottom{
+    color: #888888;
+    font-size: 2.5rem;
+    margin-right:4rem;
+}
 .about-symbol-top{
-    color:rgb(128, 130, 131);
-    transform: rotate(270deg);
-    font-size: 2rem;
-    margin:0 2rem 0 0;
+    margin-top:2rem;
 }
 .about-symbol-bottom{
-    color:rgb(128, 130, 131);
-    margin:0 6rem 0 0;
-    transform: rotate(90deg);
-    font-size: 2rem;
+    margin-top: 1rem;
 }
 .article_length{
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 

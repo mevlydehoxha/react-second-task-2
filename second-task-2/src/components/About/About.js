@@ -22,10 +22,10 @@ const About=(props)=>{
                             </div>
                         <div className="about-topic__content">
                             <div className="about-content">{title}</div>
-                            <p className="article_length">{article_data_length} aricles in this Topic</p>
+                            <div className="article_length">{article_data_length} aricles in this Topic</div>
                         </div>
                         </div>
-                        <div className="about-symbol-top">&#10093; </div>
+                        <div className="about-symbol-top">	&#x2303; </div>
                     </div>
                     {showAbout && 
                     <div className="about-articles">
@@ -43,12 +43,12 @@ const About=(props)=>{
                             <div>
                                 <img src={image} className="image" alt="image"/>
                             </div>
-                        <div className="about-topic__content">
-                            <div className="about-content">{title}</div>
-                            <p className="article_length">{article_data_length} aricles in this Topic</p>
+                            <div className="about-topic__content">
+                                <div className="about-content">{title}</div>
+                                <div className="article_length">{article_data_length} aricles in this Topic</div>
+                            </div>
                         </div>
-                        </div>
-                        <div className="about-symbol-bottom">&#10093;</div>
+                        <div className="about-symbol-bottom">&#x2304;</div>
                     </div>
                 </div>   
              </div>
